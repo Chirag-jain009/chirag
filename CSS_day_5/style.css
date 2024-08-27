@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent
+{
+    padding: 16px;
+    /* width: 10em; */
+    background-color:yellow;
+    font-size: 30px;
+}
+.submit-button
+{
+    width: 10em;
+}
+.text
+{
+    font-size: 3em;
+    background-color: blueviolet;
+    width: 20em
+}
+.btn{
+    border: none;
+    padding: 0.5em 1em;
+    background-color: #04AA6D;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 18px; 
+    transition: all 700ms ease;
+}
+.btn:hover{
+    background-color: #21835f;
+    scale: 1.2;
+}
+.btn:active{
+    scale: 0.9; 
+}
+.large
+{
+    font-size: 32px;
+}
+.small
+{
+    font-size: 12px;
+}
