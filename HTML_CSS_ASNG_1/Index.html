@@ -5,66 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p
-        {
-            color : gray;
-            text-align: justify;
-            font-size: 15px;
-            
-        }
-        .b {
-            text-align: center;
-
-            padding: 40px ;
-
-        }
-
-        #a {
-            background-color: rgb(70, 27, 105);
-            height: 160px;
-            align-content: center;
-            /* text-align: center;
-            color: white; */
-            font-size: x-large;
-        }
-
-        #d1 {
-            background: url("https://www.ixigo.com/support/js/assets/bg_image.3e452f50f9b57a39b6fd.png");
-            background-size: contain;
-            /* border: 1px solid black; */
-            
-            background-position: 80% 100%;
-            background-repeat: no-repeat;
-            height: 400px;
-        
-            width: 100%;
-         display:flex;
-        }
-        .d2
-        {
-            height: 600px;
-            /* border: 1px solid black; */
-        width: 100%;
-        /* align-content: center; */
-        }
-        .part-1
-        {   
-            margin-top: 80px;
-            margin-left: 220px;
-            width: 40%;
-            /* border: 10px;
-            border-color: black; */
-            
-        }
-        .part-2
-        {
-            /* border-color: black; */
-            border: 1px;
-            width: 60%;
-        /* background-color: rgb(248, 101, 4); */
-        }
-    </style>
+    <link rel="stylesheet" href="asgn.css">
 </head>
 
 <body>
@@ -87,36 +28,39 @@
     
 <div class="part-2">
 
-    <form>
-        <table  height="400" width="410" bgcolor="white">
-            <tr><Td><input type="text" placeholder="Name"></Td><td>Phone<input type="text" placeholder="+91"></td></tr>
-            <tr><td colspan="2"><input type="button" value="One Way"> <input type="button" value="Round trip"></td></tr>
-            <tr><Td><input type="date" Placeholder="Travel date"></Td></tr>
-            <tr><Td><input type="text" placeholder="Origin"></Td><td><input type="text" placeholder="Destination"></td></tr>
-            <tr><Td colspan="2"><input type="text" placeholder="Number of passenger"></Td></tr>
-            <tr><Td colspan="2"><input style="textarea" placeholder="Tell us if you have any specific travel preference(airline, prefered time, flight nnumber, etc.)"></Td></tr>
-            <tr><Td colspan="2" bgcolor="orange"><input type="submit" width="50"></Td></tr>
+    <form class="td-1" >
+        <table  id = "tab-1" height="100%" width="70%" bgcolor="white" border="1px solid black">
+            <tr><Td><input type="text" placeholder="Name" class="td-1"></Td><td>Phone<input type="text" placeholder="+91"></td></tr>
+            <tr><td colspan="2"><input type="button" value="✈ One Way" class="btn" style="border-color: orangered; color: orangered;"> <input type="button" class="btn" value="Round trip"></td></tr>
+            <tr><Td colspan="2"><input type="date" Placeholder="Travel date" class="td-1"></Td></tr>
+            <tr><Td><input type="text" placeholder="Origin" class="td-1"></Td><td><input type="text" placeholder="Destination" class="td-1"></td></tr>
+            <tr><Td colspan="2"><input type="text" placeholder="Number of passenger" class="td-1"></Td></tr>
+            <tr><Td colspan="2"><input type="textarea" class="td-1" placeholder="Tell us if you have any specific travel preference(airline, prefered time, flight nnumber, etc.)"></Td></tr>
+            <tr><Td colspan="2"><input type="submit" width="50" class="td-1" style="background-color: orangered;"></Td></tr>
         </table>
      
     </form>
 </div>
     </div>
     <br><br>
-    <div class="d2">
-        <table align="center" width="60%" border="1px">
-            <tr><td align="center"><svg color="orange" width="48" x="0px" y="0px" viewBox="0 0 24 24">
+    <div class="d2" align="center">
+        <table align="center" width="90%"  height="30%" cellspacing="5" border-spacing="10px">
+            <tr ><td align="center"><svg color="orange" width="48" x="0px" y="0px" viewBox="0 0 24 24">
                 <g transform="translate(0, 0)" fill="orange"><rect x="1" y="1" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" width="22" height="22" stroke-linejoin="miter"></rect><line data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" x1="16" y1="8" x2="20" y2="8" stroke-linejoin="miter"></line><line data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" x1="4" y1="8" x2="6" y2="8" stroke-linejoin="miter"></line><line data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" x1="8" y1="16" x2="4" y2="16" stroke-linejoin="miter"></line><line data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" x1="20" y1="16" x2="18" y2="16" stroke-linejoin="miter"></line><circle data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" cx="9" cy="8" r="3" stroke-linejoin="miter"></circle><circle data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" cx="15" cy="16" r="3" stroke-linejoin="miter"></circle></g></svg>
                 <h3>Customised Booking Options</h3>
                 <p>We customise and curate your trip as per your travel preferences. Just let us know!</p>
                 
                 </td>
                 <td align="center"><svg color="orange" width="48" x="0px" y="0px" viewBox="0 0 24 24"><g transform="translate(0, 0)" fill="none"><path fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" d="M6,3H3C1.895,3,1,3.895,1,5 v0c0,1.105,0.895,2,2,2" stroke-linejoin="miter"></path><polyline data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" points=" 6,7 6,1 20,1 20,7 " stroke-linejoin="miter"></polyline><path fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" d="M23,7H3 C1.895,7,1,6.105,1,5v15c0,1.657,1.343,3,3,3h19V7z" stroke-linejoin="miter"></path><circle fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" cx="17" cy="15" r="2" stroke-linejoin="miter"></circle></g></svg>
-                    <h3>Cashless Payments</h3>
+                    <h3>Cashless Payments</h3><br>
                     <p>We provide 100% online payment support, so you don't have to worry about paying in cash.</p></td>
                 <td align="center"><svg color="orange" width="48" x="0px" y="0px" viewBox="0 0 24 24"><g transform="translate(0, 0)" fill="none"><path fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" d="M17,15l-3,3l-8-8l3-3L4,2 L1,5c0,9.941,8.059,18,18,18l3-3L17,15z" stroke-linejoin="miter"></path> <path data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" d="M14,1 c4.971,0,9,4.029,9,9" stroke-linejoin="miter"></path> <path data-color="color-2" fill="none" stroke="currentColor" vector-effect="non-scaling-stroke" stroke-linecap="square" stroke-miterlimit="10" d="M14,5 c2.761,0,5,2.239,5,5" stroke-linejoin="miter"></path></g></svg>
                     <h3>24/7 Premium support</h3>
                     <p>Leave all your travel worries to us, as we are here to help you around the clock.</p></td></tr>
-            <tr><td colspan="3"><h3>Discount for Group Bookings</h3><p>If you want to have us search for the most economic fare available for group travel, with a longer period to confirm passenger names and flexibility to make modifications before issuing the tickets, you can ask us for a group fare with no commitment.
+            
+        </table >
+        <table align="center" width="60%"  height="70%" padding="2">
+                    <tr><td colspan="3"><h3>Discount for Group Bookings</h3><p>If you want to have us search for the most economic fare available for group travel, with a longer period to confirm passenger names and flexibility to make modifications before issuing the tickets, you can ask us for a group fare with no commitment.
 
                 <br>The group fare with no commitment will allow you to confirm the ticket price for your group before making a commitment to purchase. This type of fare is often <strong>cheaper than individual tickets,</strong>  since airline companies offer exclusive <strong>discounts for group bookings.</strong>
                 
