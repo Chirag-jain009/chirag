@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card UI</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="parent">
+        <form>
+            <label>Name:</label>
+            <input type="text" onkeyup="handleName()">
+            <label>Emp Code:</label>
+            <input type="text" onkeyup="handleCode()" >
+        </form>
+        <div>
+            <h1>ID CARD</h1>
+            <h3 id="card-name">Name:</h3>
+            <h3 id="card-code">Emp. Code:</h3>
+        </div>
+    </div>
+</body>
+</html>
